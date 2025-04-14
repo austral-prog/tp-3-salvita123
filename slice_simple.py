@@ -1,6 +1,8 @@
 def slice_simple():
 	texto = "Awesome"
-	print(texto[:3].lower())
-	print(texto[2:5].lower())
-	print(texto[:4].lower()+texto[4:7])
-slice_simple()
+	Awe = (texto[:3].lower())
+	Eso = (texto[2:5].lower())
+	Full = (texto[:4].lower()+texto[-3:])
+	print(Awe)
+	print(Eso)
+	print(Full)
